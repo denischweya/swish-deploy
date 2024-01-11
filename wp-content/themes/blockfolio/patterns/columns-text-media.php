@@ -1,0 +1,10 @@
+<?php
+/**
+ * Title: Columns (Text and Media)
+ * Slug: blockfolio/columnstextmedia
+ * Categories: blockfolio-patterns
+ * Keywords: Columns
+ * Block Types: core/columns
+ */
+?>
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} --><div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","className":"mobile-order-2"} --><div class="wp-block-column mobile-order-2" style="flex-basis:33.33%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontFamily":"instrument-serif"} --><h2 class="wp-block-heading has-instrument-serif-font-family" style="font-style:normal;font-weight:400"><a href="#" data-type="page" data-id="424">Work 01</a></h2><!-- /wp:heading --><!-- wp:paragraph --><p>Bacon ipsum dolor amet picanha beef spare ribs jerky flank filet mignon short ribs capicola landjaeger tail pancetta ground round. Beef swine sausage, pig pork loin pork tenderloin turducken ham hock alcatra leberkas cow bresaola sirloin. </p><!-- /wp:paragraph --><!-- wp:paragraph {"className":"is-style-font-variation-narrow"} --><p class="is-style-font-variation-narrow"><a href="#" data-type="page" data-id="424">VIEW PROJECT</a></p><!-- /wp:paragraph --></div><!-- /wp:column --><!-- wp:column {"width":"66.66%","className":"mobile-order-1"} --><div class="wp-block-column mobile-order-1" style="flex-basis:66.66%"><!-- wp:image {"id":110,"sizeSlug":"full","linkDestination":"custom"} --><figure class="wp-block-image size-full"><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/rectangle.png" alt="frozen yellow Adidas Yeezy Boost v2's on white bedspread" class="wp-image-110"/></a></figure><!-- /wp:image --></div><!-- /wp:column --></div><!-- /wp:columns -->
